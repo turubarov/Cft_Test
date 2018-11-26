@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><Form>
+<Groups>
+<Group name="G_1">
+<Fields>
+<Field name="MY_ACC" type="Account" value="12345678" required="1" digitOnly="1"/>
+<Field name="MY_FIO" type="Fio" value="Иванов Иван Иванович" readOnly="1"/>
+<Field name="MY_ADDRESS" type="Address" value="Нарымская,1,2" readOnly="1"/>
+</Fields>
+</Group>
+<Group name="G_2">
+<Fields>
+<Field name="COUNT1" type="Counter" value="104" required="1"/>
+<Field name="COUNT2" type="Counter" value="764" required="1"/>
+<Field name="COUNT3" type="Counter" value="987" required="1"/>
+</Fields>
+<Groups>
+<Group name="G_2_1">
+<Fields>
+<Field name="PAY_SUM" type="Sum" value="100" required="1"/>
+<Field name="COMM_SUM" type="Sum" value="2.5" readOnly="1"/>
+<Field name="TOTAL_SUM" type="Sum" value="102.5" required="1"/>
+</Fields>
+</Group>
+</Groups>
+</Group>
+</Groups>
+</Form>
